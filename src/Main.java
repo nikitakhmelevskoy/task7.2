@@ -2,9 +2,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Solution solution = new Solution();
+        LastSmallestElement LastSmallestElement = new LastSmallestElement();
         int[] arr = ArrayUtils.readIntArrayFromConsole();
-        int minElement = solution.positionOfTheLastSmallestElement(arr);
+        int minElement = LastSmallestElement.positionOfTheLastSmallestElement(arr);
         printPosition(minElement);
 
     }
@@ -12,4 +12,5 @@ public class Main {
     private static void printPosition(int minElement) {
         System.out.print("Smallest Element Position is " + minElement);
     }
+
 }

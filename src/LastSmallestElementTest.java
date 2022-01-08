@@ -1,96 +1,96 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class SolutionTest {
+public class LastSmallestElementTest {
 
-    Solution solution = new Solution();
+    LastSmallestElement LastSmallestElement = new LastSmallestElement();
 
     @Test
-    public void test1() {
+    public void LastSmallestElementTest1() {
         int[] testingArray = {0, 1, 1, 3, 2, 5, 6, 3};
         int expectedResult = 1;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test2() {
+    public void LastSmallestElementTest2() {
         int[] testingArray = {2, 2, 1};
         int expectedResult = 3;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test3() {
+    public void LastSmallestElementTest3() {
         int[] testingArray = {4, 3, 2};
         int expectedResult = 3;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test4() {
+    public void LastSmallestElementTest4() {
         int[] testingArray = {0, 0, 0, 1, 0};
         int expectedResult = 5;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test5() {
+    public void LastSmallestElementTest5() {
         int[] testingArray = {1, 2, 3, 4, 5};
         int expectedResult = 1;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test6() {
+    public void LastSmallestElementTest6() {
         int[] testingArray = {8, 7, 7, 7, 7, 7, 8, 7};
         int expectedResult = 8;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test7() {
+    public void LastSmallestElementTest7() {
         int[] testingArray = {0, 0, 0};
         int expectedResult = 3;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test8() {
+    public void LastSmallestElementTest8() {
         int[] testingArray = {0, 2, 0};
         int expectedResult = 3;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test9() {
+    public void LastSmallestElementTest9() {
         int[] testingArray = {8, 8, 8, 8, 9, 8};
         int expectedResult = 6;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }
 
     @Test
-    public void test10() {
+    public void LastSmallestElementTest10() {
         int[] testingArray = {-1, -2, -3};
         int expectedResult = 3;
-        int factualResult = solution.positionOfTheLastSmallestElement(testingArray);
+        int factualResult = LastSmallestElement.positionOfTheLastSmallestElement(testingArray);
 
         Assert.assertEquals(expectedResult, factualResult);
     }

@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.Locale;
 
 public class ArrayUtils {
+
     // утилиты Соломатина
+
     public static int[] toPrimitive(Integer[] arr) {
         if (arr == null) {
             return null;

@@ -1,4 +1,4 @@
-public class Solution {
+public class LastSmallestElement {
 
     public int positionOfTheLastSmallestElement(int[] arr) {
         int j = 0;
